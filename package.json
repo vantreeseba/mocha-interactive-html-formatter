@@ -15,7 +15,7 @@
 	"repository":{
 		"type":"git",
 		"url":"http://github.com/vantreeseba/mocha-interactive-html-formatter"
-	}
+	},
 	"dependencies":{},
 	"devDependencies":{}
 }
