@@ -2,6 +2,20 @@
 	"name" : "mocha-interactive-html-formatter",
 	"version" : "0.0.3",
 	"description" : "HTML output with collapsing suites for mocha.",
+	"keywords": ["mocha", "reporter"],
+	"homepage": "http://github.com/vantreeseba/mocha-interactive-html-formatter",
+	"bugs":{
+		"url":"http://github.com/vantreeseba/mocha-interactive-html-formatter/issues"
+	},
+	"license":"MIT",
+	"author":{
+		"name": "Ben Van Treese",
+		"email":"vantreeseba@gmail.com"
+	},
+	"repository":{
+		"type":"git",
+		"url":"http://github.com/vantreeseba/mocha-interactive-html-formatter"
+	}
 	"dependencies":{},
 	"devDependencies":{}
 }
