@@ -62,8 +62,7 @@ function interactiveHtmlReporter(runner) {
 
     runner.on('end', function() {
         outputFile += "</body></html>";
-		var stat = fs.statSync('./mocha');
-		if(!stat.isDirectory){
+		if(!fs.existsSync('./mocha')){
         	fs.mkdirSync('./mocha');
 		}
 		fs.writeFileSync('./mocha/index.html', outputFile);
