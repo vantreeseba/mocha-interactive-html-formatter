@@ -1,6 +1,6 @@
 {
 	"name" : "mocha-interactive-html-formatter",
-	"version" : "0.0.5",
+	"version" : "0.0.6",
 	"description" : "HTML output with collapsing suites for mocha.",
 	"keywords": ["mocha", "reporter"],
 	"homepage": "http://github.com/vantreeseba/mocha-interactive-html-formatter",
