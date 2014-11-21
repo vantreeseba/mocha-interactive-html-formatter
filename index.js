@@ -69,7 +69,7 @@ function interactiveHtmlReporter(runner) {
 			fs.mkdirSync('./artifacts/mocha');
 		}
 
-		fs.writeFileSync('./mocha/index.html', outputFile);
+		fs.writeFileSync('./artifacts/mocha/index.html', outputFile);
 
 		process.exit(failures);
 	});
